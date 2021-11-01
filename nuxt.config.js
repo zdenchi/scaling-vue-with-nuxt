@@ -14,6 +14,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  // Progress bar: https://nuxtjs.org/docs/features/loading
+  loading: { color: '#39b982' },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -42,4 +45,4 @@ export default {
   build: {},
 
   telemetry: false,
-}
+};
